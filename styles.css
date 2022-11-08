@@ -8,12 +8,13 @@ body{
 
 header{
     box-shadow: 0px 0px 5px;
-    margin: 6px 0 6px 0;
+    margin: 6px 12px 6px 12px;
 }
 .logo{
     
     display:inline-block;
     text-align: left;
+    margin-left: 12px;
 }
 
 .enlaces_header {
