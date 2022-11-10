@@ -1,5 +1,6 @@
 *{
     box-sizing:border-box;
+    font-family: sans-serif;
 }
 
 body{
@@ -16,11 +17,13 @@ header{
 header div{
     display: inline-block;
 }
-.logo{
-    
+.logo{  
     display:inline-block;
     width: 50%;
-    
+}
+
+.logeo_terceros {
+    width: 200px;
 }
 
 .enlaces_header {
@@ -52,4 +55,16 @@ header div{
 
 #main{
     padding:20px;
+}
+
+.boton_submit {
+    background: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 21px;
+    margin-top: 20px;
+    border-color: lightgray;
+    border-style: dashed;
+    color: lightgray;
+    font-weight: bold;
 }
