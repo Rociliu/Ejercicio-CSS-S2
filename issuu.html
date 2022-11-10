@@ -21,31 +21,48 @@
         </div>
     </header>
     <main>
-        <h1>Create an Issuu Account</h1>
+        <h1>Create an Issuu Account.</h1>
 
-        <div>
+        <div class="enlaces_main">
             <a href="https://google.es" title="a Google">
-                <img src="google.png" alt="logeo con google" class="logeo_terceros">
+                <img src="google.png" alt="logeo con google" class="google">
             </a>
-            <a href="https://google.es" title="a Google">
-                <img src="google.png" alt="logeo con google" class="logeo_terceros">
+            <a href="https://facebook.com" title="a Facebook">
+                <img src="facebook.png" alt="logeo con facebook" class="facebook">
             </a>
         </div>
 
         <p>or with email</p>        
 
         <form>
-           <label for=""></label>
-           <input type="text">
-            
-            <input type="checkbox">
+           <label for="Email">Email</label>
+           <input type="email" id="email" placeholder="e.g.john.doe@email.com" required>
 
-            <button class="boton_submit">create account</button>
+           <label for="contraseña">Password</label>
+           <input type="password" id="contraseña">
+           <br>
+            
+           <input type="checkbox" id="legal">
+           <label for "legal">
+            <p>I accept the <a href="https://issuu.com/legal/terms">Terms of Service</a> and the <a href="https://issuu.com/legal/terms/pro">Professional Terms of Service.</a></p>
+          </label>
+          
+
+            <button>create account</button>
         </form>
 
 
 
     </main>
+    <footer>
+       <a href="www.issuu.com">Issuu Inc.</a>
+
+        <nav>
+        <a href="https://issuu.com/legal/terms">Terms</a>
+        <a href="https://issuu.com/legal/privacy">Privacy</a>
+        <a href="https://issuu.com/legal/dmca">DMCA</a>
+       </nav>
+    </footer>    
 
 </body>
 

@@ -52,12 +52,20 @@ header div{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
-
-#main{
-    padding:20px;
+main{
+    padding-left: 140px;
+    padding-top: 100px;
+}
+.enlaces_main{
+    position: relative;
+}
+.enlaces_main a{
+    text-decoration: none;
 }
 
-.boton_submit {
+
+
+button{
     background: white;
     text-transform: uppercase;
     padding: 15px 30px;
@@ -67,4 +75,20 @@ header div{
     border-style: dashed;
     color: lightgray;
     font-weight: bold;
+}
+img.facebook{
+    position:absolute;
+    top:10px;
+    height: 90px;
+    width: 426px;
+}
+footer{
+    position:relative;
+    box-shadow: 0px 0px 10px 0px rgb(192, 185, 185);
+    margin: 0px 0px 6px 0px;
+    padding-left: 30px;
+}
+footer a{
+    text-decoration: none;
+    color:black;
 }
