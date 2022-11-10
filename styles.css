@@ -7,8 +7,14 @@ body{
 }
 
 header{
-    box-shadow: 0px 0px 10px grey;
-    margin: 0px 0px 6px 12px;
+    position:relative;
+    font-size: 0;
+    box-shadow: 0px 0px 10px 0px rgb(192, 185, 185);
+    margin: 0px 0px 6px 0px;
+    padding-left: 30px;
+}
+header div{
+    display: inline-block;
 }
 .logo{
     
@@ -20,24 +26,28 @@ header{
 .enlaces_header {
     display:inline-block;
     position:absolute;
-    top:20px; 
     right: 40px;
     text-align: left;
     padding-left: 1600px;
-    padding-bottom: 20px;
-    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 1700px;
+
 
 }
 
 .enlaces_header p {
     margin: 6px 0 6px 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size:small;;
+   
 }
 
 .enlaces_header a {
     text-decoration: none;
     color:deepskyblue;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
 #main{
