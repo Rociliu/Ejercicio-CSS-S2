@@ -58,11 +58,24 @@ main{
 }
 .enlaces_main{
     position: relative;
+    width: 40%;
 }
 .enlaces_main a{
     text-decoration: none;
 }
-
+img.google{
+    width: 50%;
+}
+img.facebook{
+    position: absolute;
+    top: 10px;
+    height: 50px;
+    width: 250px;
+}
+}
+.facebook{
+    width: 60%;
+}
 
 
 button{
@@ -82,13 +95,51 @@ img.facebook{
     height: 90px;
     width: 426px;
 }
-footer{
+h3{
+    font-weight: lighter;
+}
+form{
+    background-color: white;
+    width: 800px;
+}
+
+label {
+    position: relative;
+    top: 10px;
+    font-weight:bold;
+}
+
+input{
+    position: relative;
+    top: 20px;
+    width: 80%;
+}
+
+.checkbox{
     position:relative;
+}
+
+footer{
+    
+    position:relative;
+    top:100px;
     box-shadow: 0px 0px 10px 0px rgb(192, 185, 185);
     margin: 0px 0px 6px 0px;
     padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 0;
 }
 footer a{
     text-decoration: none;
-    color:black;
+    color:grey;
+    
+    
+}
+.nav{ 
+    padding-top: 0;
+}
+nav{
+    margin-left: 30%;
+    text-align: center;
+    box-shadow: none;
 }
