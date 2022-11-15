@@ -35,8 +35,6 @@ header div{
     padding-top: 10px;
     padding-bottom: 10px;
     width: 1700px;
-
-
 }
 
 .enlaces_header p {
@@ -52,31 +50,21 @@ header div{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
+
 main{
-    padding-left: 140px;
-    padding-top: 100px;
-}
-.enlaces_main{
-    position: relative;
-    width: 40%;
-}
-.enlaces_main a{
-    text-decoration: none;
-}
-img.google{
-    width: 50%;
-}
-img.facebook{
-    position: absolute;
-    top: 10px;
-    height: 50px;
-    width: 250px;
-}
-}
-.facebook{
-    width: 60%;
+    width: 90%;
+    max-width: 562px;
+    margin: auto;
 }
 
+a{
+    text-decoration: none;
+    color: #70a7f2;
+}
+
+img.red_social{
+    height: 30px;
+}
 
 button{
     background: white;
@@ -89,57 +77,64 @@ button{
     color: lightgray;
     font-weight: bold;
 }
-img.facebook{
-    position:absolute;
-    top:10px;
-    height: 90px;
-    width: 426px;
-}
+
 h3{
     font-weight: lighter;
 }
-form{
-    background-color: white;
-    width: 800px;
+
+div.pass {
+    margin-top: 20px;
 }
 
 label {
-    position: relative;
-    top: 10px;
     font-weight:bold;
 }
 
-input{
+label.texto_legal {
+    font-weight: initial;
+}
+
+input:not([type='checkbox']) {    
     position: relative;
-    top: 20px;
-    width: 80%;
+    max-width: 400px;
+    height: 36px;
+    width: 100%;
+    border: 1px solid #9d9d9d;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: block;
+    border-radius: 4px;
 }
 
-.checkbox{
-    position:relative;
+::placeholder {
+    color: rgb(185, 185, 185);
+    opacity: 1; /* Firefox */
+  }
+
+div.checkbox{
+    margin-top: 20px;
 }
 
-footer{
-    
-    position:relative;
-    top:100px;
-    box-shadow: 0px 0px 10px 0px rgb(192, 185, 185);
-    margin: 0px 0px 6px 0px;
+footer{    
+    box-shadow: 0px -2px 5px -2px rgb(192 185 185);
+    margin: 30px 0px 0px 0px;
+    padding: 20px 0;
     padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 0;
 }
+
+footer .corporacion {
+    margin-right: 25px;
+}
+
 footer a{
     text-decoration: none;
-    color:grey;
-    
-    
+    color:grey;   
 }
-.nav{ 
-    padding-top: 0;
+
+footer nav {
+    display: inline;
 }
-nav{
-    margin-left: 30%;
-    text-align: center;
-    box-shadow: none;
+
+footer nav a {
+    padding: 0 10px;
 }

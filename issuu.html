@@ -25,10 +25,10 @@
 
         <div class="enlaces_main">
             <a href="https://google.es" title="a Google">
-                <img src="google.png" alt="logeo con google" class="google">
+                <img src="google.png" alt="logeo con google" class="red_social">
             </a>
             <a href="https://facebook.com" title="a Facebook">
-                <img src="facebook.png" alt="logeo con facebook" class="facebook">
+                <img src="facebook.png" alt="logeo con facebook" class="red_social">
             </a>
         </div>
 
@@ -37,25 +37,18 @@
         <form>
         <div class="email">
            <label for="email">Email</label>
-           <br>
            <input type="email" id="email" placeholder="e.g.john.doe@email.com" required>
         </div>
-            <br>
-        <div class="contraseña">
-           <label for="contraseña">Password</label>
-           <br>
-           <input type="password" id="contraseña">
-           <br>
+        <div class="pass">
+           <label for="pass">Password</label>
+           <input type="password" id="pass">
         </div>  
-         <br>
-         <div class="checkbox">
+        <div class="checkbox">
            <input type="checkbox" id="legal">
-           <label for="legal">I accept the <a href="https://issuu.com/legal/terms">Terms of Service</a> and the <a href="https://issuu.com/legal/terms/pro">Professional Terms of Service.</a>
+           <label for="legal" class="texto_legal">I accept the <a href="https://issuu.com/legal/terms">Terms of Service</a> and the <a href="https://issuu.com/legal/terms/pro">Professional Terms of Service.</a>
           </label>
         </div>
-        
-          <br>
-
+    
             <button>create account</button>
         </form>
 
@@ -64,20 +57,20 @@
     </main>
 
     <footer>
-        <span class="enlace-footer">
-            <a href="www.issuu.com">Issuu Inc.</a>
-        </span>
 
-        <span class="nav">
-            <nav>
-                 <a href="https://issuu.com/legal/terms">Terms</a></span>
-        
-                <a href="https://issuu.com/legal/privacy">Privacy</a></span>
-       
-                 <a href="https://issuu.com/legal/dmca">DMCA</a>
-       
-             </nav>
-        </span>
+        <div class="enlaces">
+            <span class="corporacion">
+                <a href="www.issuu.com">Issuu Inc.</a>
+            </span>
+    
+            <span>
+                <nav>
+                    <a href="https://issuu.com/legal/terms">Terms</a>
+                    <a href="https://issuu.com/legal/privacy">Privacy</a>
+                    <a href="https://issuu.com/legal/dmca">DMCA</a>
+                 </nav>
+            </span>
+        </div>
     </footer>    
 
 </body>
